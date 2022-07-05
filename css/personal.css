@@ -92,7 +92,7 @@
     left: 690px;
 }
 
-.About_us{
+.O_nas{
     width: 63px;
     left: 912px;
 }
@@ -428,6 +428,94 @@
     width: 412.56px;
     height: 367.85px;
     left: 1600px;
-    top: 729px;
+    top: 700px;
     transform: rotate(0.5deg);
+}
+
+.line{
+    box-sizing: border-box;
+    position: absolute;
+    left: 16.72%;
+    right: 220px;
+    top: 985px;
+    bottom: 52.35%;
+    border: 2px solid #D6D3BB;
+}
+
+.opisanie{
+    display: flex;
+    width: 1278px;
+    height: 128px;
+
+}
+
+.kvadrat{
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 452px;
+    top: 1077px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text_lor{
+    position: absolute;
+    left: 30.36%;
+    right: 62.4%;
+    top: 117%;
+    bottom: 49.13%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.ml{
+    position: absolute;
+    width: 82.73px;
+    height: 17.17px;
+    left: 844px;
+    top: 1119px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.sht{
+    position: absolute;
+    width: 82.73px;
+    height: 21.85px;
+    left: 975px;
+    top: 1118.63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.cost{
+    position: absolute;
+    left: 72.19%;
+    right: 23.54%;
+    top: 117%;
+    bottom: 48.86%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
 }
